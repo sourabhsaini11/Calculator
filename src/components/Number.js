@@ -23,6 +23,7 @@ const Button=styled.div`
    color: ${prop => prop.correct ? '#888888' : '#ffffff'};
     //border:1px solid  #888888;
    outline: 1px solid #888888;
+   
 `;
 
 export default Number;

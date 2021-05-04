@@ -3,6 +3,7 @@ import React,{ useState } from 'react';
 //Components
 import Number from "./components/Number";
 import Result from "./components/Result";
+import Clear from "./components/Clear";
 //GlobalStyled
 import GlobalStyle from './components/GlobalStyle';
 import styled from "styled-components";
@@ -47,6 +48,7 @@ function App() {
             <Number inputHandler={()=>evalHandler()} val={"="}/>
             <Number inputHandler={inputHandler} val={"-"}/>
         </Numbers>
+        <Clear clearHandler={ ()=> setSum("")}/>
       </Calc>
     </div>
   );
