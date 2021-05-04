@@ -6,7 +6,7 @@ const Number = ({ val, inputHandler }) => {
         return (!isNaN(val) || val==="." || val==='=')
     }
     return(
-        <Button onClick={()=>inputHandler} correct={numHandler()}>
+        <Button onClick={()=>inputHandler(val)} correct={numHandler()}>
         <h1>{val}</h1>
         </Button>
     );
