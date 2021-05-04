@@ -18,6 +18,9 @@ const Clr=styled.div`
  height:5rem;
  background-color:#e0e1e6;
  color:#888888;
+ &:hover {
+       cursor: pointer;
+   }
 `
 
 export default Clear;
